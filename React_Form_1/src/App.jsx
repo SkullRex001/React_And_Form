@@ -40,16 +40,16 @@ function App() {
       errors.email = "Email is required!"
     }
     else if(!regexEmail.test(values.email)){
-      errors.email = "This is not a valid Email"
+      errors.email = "This is not a valid Email!"
     }
     if(!values.password) {
-      errors.password = "Password is required"
+      errors.password = "Password is required!"
     }
     else if(values.password < 8){    
-        errors.password = "Password too short"
+        errors.password = "Password too short!"
     } 
     else if(!regexPassword.test(values.password)){
-      errors.password = "Password is too weak"
+      errors.password = "Password is too weak!"
     }
     return errors
 
