@@ -1,8 +1,3 @@
-# React + Vite
+### React Form with manual validation using regex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot (3314)](https://github.com/SkullRex001/React_And_Form/assets/122201082/562a19d8-bd52-4a73-b0d9-1795d18f0b8b)
