@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div class="btn-toggle-slider" id="btn"></div>
+                <button class="toggle-btn" onclick="login()">Login</button>
+                <button class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form class="input-group" id="login">
+                <input type="text" placeholder="User Id">
+                <input type="text" placeholder="Enter Password">
+                <div>   <input type="checkbox" > <span>Remember Password</span></div>  
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form class="input-group" id="register">
+                <input type="text" placeholder="User Id">
+                <input type="text" placeholder="Enter Password">
+                <div>   <input type="checkbox" > <span>I agree to the terms & conditions</span></div>  
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const x = document.getElementById("login")
+        const y = document.getElementById("register")
+        const z = document.getElementById("btn")
+
+        const register = ()=>{
+            x.style.left = "-450px"
+            y.style.left = "35px"
+            z.style.left = "100px"
+
+        }
+
+        const login = ()=>{
+            x.style.left = "30px"
+            y.style.left = "400px"
+            z.style.left = "0px"
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
